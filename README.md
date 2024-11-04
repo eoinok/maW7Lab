@@ -16,6 +16,7 @@ Follow the Step-by-Step Powerpoint guide to create
 # Part 2
 Modify the code in firebaseConfig.js so that it uses the Firebase Config app settings that are supplied to you 
 during the steps of setting up Firebase. Replace the code inside the ```const firebaseConfig = {}``` block with the code given to you containing the firebase settings and modified to include the database setting.
+Make sure your package.json is also up to date.
 Click on the Save Data button in your app, if it works you should get a "Data Saved Successfully" message. Now if you go back to the firebase console you should find the Joe Bloggs name and email data saved in your firestore.
 
 # Part 3
