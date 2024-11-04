@@ -3,6 +3,7 @@ This lab gets students to connect a React Native App to a Firebase Firestore dat
 - To set up a Firebase account - to create a project, app and firestore database within Firebase
 - To modify an existing React Native App so that it saves some data to Firebase.
 - To retreive data from Firebase and display it in a Flatlist
+- To add a ScrollView so that the Screen is scrollable
 
 # Part 1
 Follow the Step-by-Step Powerpoint guide to create 
@@ -18,7 +19,7 @@ during the steps of setting up Firebase. Replace the code inside the ```const fi
 Click on the Save Data button in your app, if it works you should get a "Data Saved Successfully" message. Now if you go back to the firebase console you should find the Joe Bloggs name and email data saved in your firestore.
 
 # Part 3
-Add two new useState hooks for name and email (add them where the comment indicates to add them in App.js). Next add two new TextInput components. Modify the example code so that, instead of the users document with hard-coded values for name and email, the document takes values from exisiting TextInput components and saves them to the Firestore database. Uncomment the lines from the saveData function which set the name and email to blank after they have been saved.
+Add two new useState hooks for name and email (add them where the comment indicates to add them in App.js). Next add two new TextInput components. Remember to import the TextInput component. Modify the example code so that, instead of the users document with hard-coded values for name and email, the document takes values from exisiting TextInput components and saves them to the Firestore database. Uncomment the lines from the saveData function which set the name and email to blank after they have been saved.
 
 # Part 4
 Modify your Flatlist so that rather than printing data from the list of users hardcoded into the application the Flatlist will pull 
